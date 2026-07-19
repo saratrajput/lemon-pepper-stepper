@@ -13,6 +13,8 @@ on:
     paths:
       - hardware/**
 
+  workflow_dispatch:
+
 env:
   workflow_project_dir: hardware
   kicad_project_name: lemon-pepper

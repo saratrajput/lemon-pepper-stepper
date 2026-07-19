@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 env:
   workflow_project_dir: hardware
   kicad_project_name: lemon-pepper
